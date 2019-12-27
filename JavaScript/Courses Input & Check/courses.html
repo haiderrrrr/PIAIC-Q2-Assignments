@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            var courses= []
+            var course=[]
+            var i=0
+            for(i=0; i<=4; i++){
+                courses.push(prompt("Enter course name "+ ++i +" : " ))
+                i--
+            }
+            alert(courses)
+            var j=1
+            for(i=0; i<=4; i++){
+                course[i]=prompt("Enter course name "+ j +" : ",courses[i])
+                j++
+                if(course[i]!=""){
+                    courses.splice([i],1,course[i])
+                }
+                else{
+                    i--
+                    alert("Couse Name must be entered")
+                }
+            }
+            alert(courses)
+
+        </script>
+    </head>
+</html>

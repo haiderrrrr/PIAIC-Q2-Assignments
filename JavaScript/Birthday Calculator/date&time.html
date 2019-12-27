@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script>
+            var name=prompt("Enter Your Name")
+            var dobDate=prompt("Enter Your Date of birth Date only")
+            var dobMonth=prompt("Enter Your Date of birth Month only")
+            var dobYear=prompt("Enter Your Date of birth Year only")
+            var currenthour = new Date().getHours()
+            if(currenthour<12){
+                alert("Hello" +name+  "Good Morning")
+            }
+            else if(currenthour>=12 && currenthour<16){
+                alert("Hello" +name+" Good After Noon")
+            }
+            else if(currenthour>16 && currenthour<20){
+                alert("Hello" +name+ "Good Evening")
+            }
+            else if(currenthour>20 && currenthour<24){
+                alert("Hello" +name+ "Good Night")
+            }
+            var dob= new Date(dobMonth+ +dobDate+"," +dobYear) 
+            alert (dob)
+            var cdate= new Date()
+            var years= cdate.getFullYear() - dob.getFullYear()
+            var months= years*12
+            var days= years* 365
+            var hours= days *24
+            var minuts= hours * 60
+            var seconds = minuts * 60
+            alert("You are "+ years +" Years "+ months +" Months "+ days +" Days "+ hours +" Hours "+ minuts +" Minutes & "+ seconds + "olds")
+            var nextdob= new Date(dobMonth+ +dobDate+", 2020") - cdate
+            var a=(nextdob * 12) / (365*24*60*60*60)
+
+            alert("Next Birthday in "+ a +"Days")
+        </script>
+    </head>
+</html>

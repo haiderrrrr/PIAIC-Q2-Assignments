@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            var a =prompt("Enter your Linux marks:")
+            var b =prompt("Enter your Dockers marks:")
+            var c =prompt("Enter your Kubernetes marks:")
+            var d =prompt("Enter your GIT marks:")
+            var linux=parseInt(a)
+            var dockers=parseInt(b)
+            var kubernetes=parseInt(c)
+            var git=parseInt(d)
+            var total= linux + dockers + kubernetes + git
+            var percentage=(total/400)*100
+            if(percentage>89 && percentage<100){
+                alert("Yor Percentage is :"+percentage+ " Your Grade is Outstanding 'A+'")
+            }
+            if(percentage>79 && percentage<89){
+                alert("Yor Percentage is :"+percentage+ " Your Grade is Execelent 'A1'")
+            }
+            if(percentage>69 && percentage<79){
+                alert("Yor Percentage is :"+percentage+ " Your Grade is Very Good 'A'")
+            }
+            if(percentage>59 && percentage<69){
+                alert("Yor Percentage is :"+percentage+ " Your Grade is Good 'B'")
+            }
+            if(percentage>49 && percentage<59){
+                alert("Yor Percentage is :"+percentage+ " Your Grade is Fair 'C'")
+            }
+            if(percentage>0 && percentage<49){
+                alert("Yor Percentage is :"+percentage+ " Your Grade is Poor 'Fail'")
+            }
+        </script>
+    </head>
+</html>

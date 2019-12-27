@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+            var dec=prompt("Enter a Decimal Value")
+            var num= Math.ceil(dec)
+            var string=prompt("Type a Sentence")
+            var newString=string.slice(0,num)
+            var revString=''
+            for(i=num-1; i>=0; i--){
+                revString+=newString[i]
+            }
+            alert(revString)
+        </script>
+    </head>
+</html>

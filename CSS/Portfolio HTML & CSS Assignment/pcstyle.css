@@ -1,0 +1,327 @@
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src: url('./Fonts/opensans/OpenSans-Regular.ttf');
+}
+*{
+    font-family: 'OpenSans-Regular';
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 2px 2px 1px 2px;
+}
+    .phone-no {
+        float: right;
+    }
+        .button-callme{
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 0px 35px 0px 30px;
+            background-color: #A2D84C;
+            border-bottom: 4px solid rgb(123, 167, 54);
+            padding: 7px 15px;
+            color: black;
+            }
+                .phone-no-b{
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.945);
+                    margin: 0px 15px 0px 15px;
+    
+                }
+        .fb{
+            margin: 0px 0px 0px 20px;
+        }
+.logo{
+    margin: 0px 0px 0px 30px;
+}
+.m-buttons{
+    text-decoration: none;
+    float: right;
+    padding: 30px 15px;
+    font-size: 16px;
+    color: black;
+}
+    .contact{ 
+        text-decoration: none;
+        margin: 0px 20px 0px 0px;
+        float: right;
+        padding: 30px 15px;
+        font-size: 16px;
+        color: black;
+     }
+        .contact:hover{ 
+            border-bottom: 10px solid orange;
+            font-weight: bolder;
+        }
+        .m-buttons:hover{
+            border-bottom: 10px solid orange;
+            font-weight: bolder;
+        }
+.highlights{
+    background-image: url(./Images/bg-img.jpg);
+    height: 70%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -30px 0px 0px 0px;
+  
+}
+    .hl-heading{
+        padding: 150px 80px 0px 80px;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 60px;
+    }
+        .hl-para{
+            padding: 0px 220px 50px 220px;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+        }
+            .read-more{
+                text-decoration: none;
+                text-align: center;
+                border-radius: 6px;
+                background-color: orange;
+                border-bottom: 4px solid rgb(253, 75, 4);
+                padding: 10px 40px;
+                margin: 44%;
+                color: black;
+                font-size: 18px;
+            }
+            .dot {
+                cursor: pointer;
+                height: 20px;
+                width: 20px;
+                margin: 70px 5px 0px 5px;
+                background-color: whitesmoke;
+                border-radius: 50%;
+                display: inline-block;
+              }
+    .oadv{
+        text-align: center;
+        font-size: 22px;
+    }
+        .oadv-para{
+            text-align: center;
+            color: grey;
+            padding: 0px 300px;
+            font-size: 16px;
+        }
+.circles-div{
+    text-align: center; 
+}
+    .circle{
+        float: left;
+        text-align: center;
+        height: 350px;
+        width: 250px;
+        padding: 0%;
+        margin: 1.8%;
+        font-size: 15px;
+        color: gray;
+    }
+.aboutus{
+    background-image: url(./Images/typing-bg.jpg);
+    height: 70%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 400px 0px 0px 0px;  
+    background-size: cover;
+}
+        .aboutus-h{ 
+            text-align: center;
+            font-size: 22px;
+            padding: 10px 0px 0px 0px;}
+                .aboutus-p{
+                    font-size: 14px;
+                    margin: 0px 60px;
+                }
+                .read-more-a{
+                    text-decoration: none;
+                    text-align: center;
+                    border-radius: 6px;
+                    background-color: orange;
+                    border-bottom: 4px solid rgb(253, 75, 4);
+                    padding: 10px 40px;
+                    color: black;
+                    font-size: 18px;
+                    margin: 0px 60px;
+                } 
+.star-div{
+    padding: 0px 0px 0px 70px;
+}
+    .star-img{
+        text-align: center;
+        padding: 8%;
+        background-color: orange;
+        margin: -50px 0px 0px 0px;
+        border-radius: 50%;
+    }
+        .services-body{
+            float: left;
+            height: 300px;
+            width: 350px;
+            background-color: rgb(236, 234, 234);
+            text-align: center;
+            margin: 100px 10px 0px 10px;
+            color: grey;
+            font-size: 15px;
+            border-radius: 8px;
+        }
+            .services-body p{
+                padding: 0px 22px;
+            }
+            .services-body a{
+                font-size: 20px;
+            }
+.black-bg{ 
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    margin: 500px 0px 0px 0px;
+}
+     .opf{
+        text-align: center;
+        font-size: 22px;
+        padding: 20px 0px 0px 0px;
+        }
+        .opf-para{
+            text-align: center;
+            color: rgb(228, 227, 227);
+            padding: 0px 400px;
+            margin: -15px 0px 30px 0px;
+            font-size: 16px;
+        }
+            .black-buttons{
+                text-decoration: none;
+                font-size: 20px;
+                margin: 1%;
+                color: white;
+                font-weight: bold;
+            }
+                .black-buttons:hover{ color: orange;}
+    .op-body{
+            float: left;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            color: grey;
+            font-size: 15px;
+
+    }
+.people-div{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    margin: 240px 0px 0px 0px;
+}
+    .table-body-b{
+        border-bottom: 2px solid gray;
+    }
+        .table-para{
+          padding: 10px 50px 0px 50px;
+        }
+        .table-img{
+            margin: 10px 60px;
+            float: left;
+        }
+        .dot-o {
+            cursor: pointer;
+            height: 20px;
+            width: 20px;
+            margin: 70px 5px 0px 5px;
+            background-color: orange;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    .our-skills{
+        text-align: center;
+    }
+        .skill{
+            float: left;
+            font-size: 20px;
+        }
+.project{
+    height: 50%;
+    width: 100%;
+    background-color:  rgb(95, 184, 12);
+    margin: 150px 0px 0px 0px;
+}
+    .project h1{
+        padding: 50px 80px 0px 80px;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 60px;
+    }
+        .form{
+            text-align: center;
+        }
+        .input{
+            font-size: 20px;
+            padding: 8px ;
+            margin: 8px;
+        }
+        .submit{
+            cursor: pointer;
+            font-size: 20px;
+            background-color: orange;
+            border-color: orange;
+            border-bottom: 4px solid rgb(253, 75, 4);
+            color: black;
+            padding: 12px 20px;
+            border-radius: 8px;
+        }
+.loc{
+    text-align: center;
+    font-size: 25px;
+}
+    .contacts{
+        text-align: center;
+        font-size: 25px;
+        float: left;
+        margin: 0px 0px 0px 200px;
+    }
+.map{
+    height: 100%;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+}
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color:  rgb(95, 184, 12);
+    margin: 0px 0px 0px 0px;
+}
+    .footer-middle{
+        text-align: left;
+        height: 100px;
+        width: 400px;
+        color: white;
+        padding: 80px 80px;
+        font-size: 17px;
+    }
+    .footer-middle a{
+        color: white;
+        margin: 100px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
